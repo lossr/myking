@@ -12,16 +12,17 @@
             html{
              height:100%;
             }
-             @keyframes 的确 {
-                  0% {opacity:0}
-                  25% {opacity:100}
-                   100% {opacity:0}
+            @keyframes first{
+            0%{opacity:0};
+            25%{opacity:100};
+            75%{opacity:0};
+            100%{opacity:0};
             }
-                    @keyframes 的撒 {
-                  0%{opacity:0}
-                  25%{opacity:0}
-                   75%{opacity:100}
-                   100%{opacity:0}
+                    @keyframes sencond {
+                  0%{opacity:0};
+                  25%{opacity:0};
+                   75%{opacity:100};
+                   100%{opacity:0};
               }
             p{
             text-align: center;      
@@ -29,11 +30,11 @@
             width:100%;      
             font-size: 100px;
             }
-            #1{
-                  animation: 的确 2s infinite;
+            #嘎嘎嘎{
+                  animation: first 2s infinite;
                                  }
-            #2{
-               animation: 的撒 2s infinite;
+            #啦啦啦{
+               animation: sencond 2s infinite;
                                  }
                         
       </style>    
@@ -56,7 +57,7 @@
 <audio controls="controls" autoplay="autoplay">
   <source src="bgm.mp3" type="audio/mpeg" />
 </audio>
-<p id='1'>你来到了这里</p> 
-<p id='2'>不是因为什么，而是你被人</p>                  
+<p id='嘎嘎嘎'>你来到了这里</p> 
+<p id='啦啦啦'>不是因为什么，而是你被人</p>                  
 </body>     
 </html>        
