@@ -13,37 +13,27 @@
              height:100%;
             }
              @keyframes 1c {
-                  0%{opacity:100}
-                  25%{opacity:0}
-                   75%{opacity:0}
-                   100%{opacity:0}
+                  0% {opacity:0}
+                  25% {opacity:100}
+                   100% {opacity:0}
             }
                     @keyframes 2c {
-                  0%{opacity:0}
-                  25%{opacity:100}
-                   75%{opacity:0}
-                   100%{opacity:0}
-             }
-                          @keyframes 3c {
                   0%{opacity:0}
                   25%{opacity:0}
                    75%{opacity:100}
                    100%{opacity:0}
-            }
+              }
             p{
             text-align: center;      
             position: absolute;      
             width:100%;      
             font-size: 100px;
             }
-                                 #1{
-                                 animation: 1c 2s infinite;
+            #1{
+                  animation: 1c 2s infinite;
                                  }
-                                  #2{
-                                 animation: 2c 2s infinite;
-                                 }
-                                  #3{
-                                 animation: 3c 2s infinite;
+            #2{
+               animation: 2c 2s infinite;
                                  }
                         
       </style>    
@@ -63,10 +53,10 @@
       <link rel="icon" sizes="any" mask href="https://img03.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi02piccdn.sogoucdn.com%2F6b51c9d9bcfc775a&appid=122">;      
   </head>  
       <body>
-<audio src='bgm.mp3' comtrol='comtrols'> 
-            </audio>            
+<audio controls="controls" autoplay="autoplay">
+  <source src="bgm.mp3" type="audio/mpeg" />
+</audio>
 <p id='1'>你来到了这里</p> 
-<p id='2'>不是因为什么，而是你翻了源代码</p>             
-<p id='3'>一起来弄个XX网页吧</p>            
+<p id='2'>不是因为什么，而是你被人</p>                  
 </body>     
 </html>        
